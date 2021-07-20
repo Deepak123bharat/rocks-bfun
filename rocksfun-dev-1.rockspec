@@ -1,5 +1,5 @@
 rockspec_format = "3.0"
-package = "rocksfun"
+package = "rocks-fun"
 version = "dev-1"
 source = {
 	url = "git://github.com/Deepak123bharat/rocks-fun",
