@@ -32,14 +32,14 @@ build_script:
 - luarocks make
 
 before_test:
-- luarocks install rocks-sysdetect --dev
+- luarocks install rocks-fun --dev
 - luarocks install tl
 
 test_script:
 - echo "Type check..."
-- tl check src/rocks/sysdetect.d.tl
+- tl check src/rocks/fun.d.tl
 - echo "Testing..."
-- lua spec/sysdetect_spec.lua
+- lua spec/rocksfun_spec.lua
 
 after_test:
 # @todo
