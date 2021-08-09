@@ -34,3 +34,6 @@ test_script:
 - tl check src/rocks/fun.d.tl
 - echo "Testing..."
 - lua spec/rocksfun_spec.lua
+
+after_test:
+# @todo
