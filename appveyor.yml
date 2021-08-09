@@ -18,10 +18,6 @@ before_build:
   - luarocks install luacheck
   - luarocks install rocks-fun --dev
 
-before_build:
-# @todo
-- echo "Installing external deps"
-
 build_script:
 - luarocks make
 
